@@ -1,0 +1,105 @@
+body{
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+.main-sec {
+    width: 50%;
+    margin:50px auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+.inp-form{
+  width:80%;
+  margin: auto;
+  padding: 20px;
+  background: lightgray;
+
+}
+.inp-form div{
+  text-align: left;
+  margin: 20px 0;
+}
+
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+label{
+  display: block;
+
+}
+
+button {
+    align-self: center;
+    background-color: #3977a0;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    }
+button:hover {
+    background-color: rgb(22, 15, 15);
+    color: rgb(243, 239, 239);
+  }
+
+
+
+  
+
+.users {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  }
+
+
+.usercard {
+    text-align: center;
+    width: 70%;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 20px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black ;
+    border-collapse: collapse;
+
+
+
+  }
+
+  .usercard div{
+    text-align: left;
+
+  }
+  .btn-div{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+    margin:  auto;
+
+  }
+  .btn-div button{
+      margin-right: 10px;
+      padding: .5rem .75rem;
+  }
+.usercardtrue {
+  background-color: rgb(160, 156, 149);
+
+   
+}
+
+.usercardfalse {
+  background-color: rgb(235, 230, 230);
+
+
+}
